@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://github.com/NRKishanKumar/reactified.tictactoe.io",
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
